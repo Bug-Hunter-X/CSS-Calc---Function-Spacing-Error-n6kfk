@@ -1,0 +1,5 @@
+The issue is resolved by adding spaces around the minus operator in the `calc()` function.  The corrected code ensures that the browser correctly interprets the calculation to subtract 10 pixels from 100% of the available width. 
+
+```css
+width: calc(100% - 10px);
+```
